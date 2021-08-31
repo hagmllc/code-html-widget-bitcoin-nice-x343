@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Code Widget biểu đồ giá bitcoin đẹp mắt bằng HTML CSS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script>
+  (function(b,i,t,C,O,I,N) {
+    window.addEventListener('load',function() {
+      if(b.getElementById(C))return;
+      I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+      I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+    },false)
+  })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<h1>Bitcoin Price Chart Widget</h1>
+  <div class="row">
+    <div class="col-sm">
+      <div class="btcwdgt-chart"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-chart" bw-theme="light"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+		<h1>Simple Bitcoin Price Widget</h1>
+  <div class="row">
+    <div class="col-sm">
+      <div class="btcwdgt-price"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-price" bw-theme="light" bw-cur="eur"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-price" bw-cash="true"></div>
+    </div>
+		<div class="col-sm">
+      <div class="btcwdgt-price" bw-theme="light" bw-cur="jpy"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+	<h1>News Headlines Widget</h1>
+  <div class="row">
+    <div class="col-">
+      <div class="btcwdgt-news" bw-cur="usd"></div>
+    </div>
+		<div class="col-">
+      <div class="btcwdgt-news" bw-cur="eur" bw-theme="light"></div>
+    </div>
+    <div class="col-">
+      <div class="btcwdgt-news" bw-entries="10"></div>
+    </div>
+    <div class="col-">
+      <div class="btcwdgt-news" bw-entries="3" bw-theme="light"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+	<h1>Forum Topics Widget</h1>
+  <div class="row">
+    <div class="col-sm">
+      <div class="btcwdgt-forum"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-forum" bw-theme="light"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-forum" bw-entries="10"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+		<h1>News Ticker</h1>
+  <div class="row">
+    <div class="col-sm">
+      <div class="btcwdgt-news-ticker"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-news-ticker" bw-theme="light"></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+		<h1>Bitcoin.com Mining Pool Hash Rate</h1>
+  <div class="row">
+    <div class="col-sm">
+      <div class="btcwdgt-pool"></div>
+    </div>
+    <div class="col-sm">
+      <div class="btcwdgt-pool" bw-theme="light"></div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

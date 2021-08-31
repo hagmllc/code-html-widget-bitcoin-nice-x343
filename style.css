@@ -1,0 +1,10 @@
+body {
+	background-color: #232323;
+}
+body h1 {
+	font-size: 30px;
+	color: #8b8b8b;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
